@@ -1,0 +1,60 @@
+@startuml
+'https://plantuml.com/class-diagram
+Class TodoListApplication{
+void start(Stage stage);
+void main()launch;
+}
+Class Task{
+SimpleString description;
+BooleanProperty completed;
+SimpleObjectProperty<LocalDate> deadlineDate;
+
+Task(String description1,  LocalDate date)
+
++ String getDescription()
++ void setDescription(String deadline1)
+
++ BooleanProperty getCompleted()
++ void setCompleted(boolean completed1)
+
++ LocalDate getDeadlineDate()
++ String getDeadline()
++ void setDeadlineDate(LocalDate date)
+}
+
+Class TodoController{
+TableView<Task>tableView
+
+TableColumn<Task, Boolean>completedCol
+TableColumn<Task, String>dateCol
+TableColumn<Task,String>descriptionCol
+
+DatePicker addDate
+TextField addDescription
+
+MenuItem open
+MenuItem save
+MenuItem exit
+
+Button buttonAdd
+Button buttonEdit
+Button buttonDelete
+Button buttonClear
+Button buttonAll
+Button buttonCompleted
+Button buttonIncompleted
+
+ObservableList<Task> data;
+FilteredList<Task>filteredList
+- int editIndex
+FileChooser fileChooser
+
++ initialize(URL location, ResourceBundle resources)
++ void onAdd()
++ void onEdit()
++ void onDelete()
++ void onOpen()
++ void onSave()
+void onExit()
+}
+@enduml
