@@ -42,8 +42,3 @@ This will then open our saved list from six
     In this example the List is sorted by the first due date to the last one 
     ![image](https://user-images.githubusercontent.com/89706680/140661676-7871d47e-09e8-415f-9676-8fbc128bd0d9.png)
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 482e8a00e63ecfa5009316fa89a109848e24866a
