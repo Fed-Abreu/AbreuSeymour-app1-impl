@@ -26,6 +26,7 @@ After opening the application you will recieve this window
    
 ## 6) Saving Lists:
    Click on the File tab in the top right and Select Save as. Then a window will prompt for a location and then click save
+
    ![image](https://user-images.githubusercontent.com/89706680/140661227-32123c11-bfa0-41b3-a30a-3b9e057b0b6a.png)
    
 ## 7) Opening Lists:
