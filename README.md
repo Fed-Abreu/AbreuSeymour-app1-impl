@@ -5,6 +5,7 @@ After opening the application you will recieve this window
 ## 1) Adding a new Task:
    First enter a deadline by using date picker and enter a description then click add
   ![ToDoAppDocsImage2](https://user-images.githubusercontent.com/89706680/140660119-d4afbbac-5001-493d-a778-622a48726631.PNG)
+**In order for a user to add a task the characters in Description must be atleast 1 and a maximum of 256
   
 ## 2) Editing a task: 
    Click on the desired task and then click the Edit button the task will then apear on the enter Deadline and Enter Description for adjustment     
