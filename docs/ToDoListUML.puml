@@ -49,12 +49,12 @@ FilteredList<Task>filteredList
 - int editIndex
 FileChooser fileChooser
 
-+ initialize(URL location, ResourceBundle resources)
-+ void onAdd()
-+ void onEdit()
-+ void onDelete()
-+ void onOpen()
-+ void onSave()
+initialize(URL location, ResourceBundle resources)
+void onAdd()
+void onEdit()
+void onDelete()
+void onOpen()
+void onSave()
 void onExit()
 }
 @enduml
